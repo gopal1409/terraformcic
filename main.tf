@@ -38,9 +38,9 @@ provider "azuread" {
     alias           =   "ad"
 }
 
-// module "winvm" {
-//     source = "./azure/windowsVM"
-// }
+ module "winvm" {
+     source = "./azure/windowsVM"
+ }
 
 // module "customrole" {
 //     source  =   "./azure/custom-roles"
